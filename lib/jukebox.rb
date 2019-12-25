@@ -20,5 +20,10 @@ def play(songs)
   if is_playing == false
     puts "Invalid input, please try again"
   end
-  
 end 
+
+def list(songs)
+  songs.each do |song|
+    puts "#{song}"
+  end
+end
