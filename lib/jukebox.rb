@@ -36,7 +36,12 @@ def run(songs)
   puts "Please enter a command: "
   command = gets.strip
   
-  
-    
+  case command
+    when "exit"
+      exit_jukebox
+    when "list"
+      list(songs)
+    when "help"
+      help
   end
 end
