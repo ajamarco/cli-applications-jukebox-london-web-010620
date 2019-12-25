@@ -10,9 +10,12 @@ end
 def play(songs)
   puts "Please enter a song name or number: "
   user_choice = gets.strip
+  playing? = false 
   songs.each do |song|
     if song.include?(user_choice)
       puts "Playing #{song}."
+      playing = true
     end
   end
+  
 end 
