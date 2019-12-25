@@ -18,7 +18,7 @@ def play(songs)
     end
   end
   if is_playing == false
-    puts ""
+    puts "Invalid input, please try again"
   end
   
 end 
