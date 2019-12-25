@@ -17,5 +17,8 @@ def play(songs)
       is_playing = true
     end
   end
+  if is_playing == false
+    puts ""
+  end
   
 end 
