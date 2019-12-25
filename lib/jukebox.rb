@@ -40,6 +40,7 @@ def run(songs)
   elsif command.downcase == "help"
     help  
   elsif command.downcase == "list"
-    list(songs)  
+    list(songs) 
+    
   end
 end
