@@ -23,7 +23,7 @@ def play(songs)
 end 
 
 def list(songs)
-  songs.each do |song|
-    puts "#{song}"
+  songs.length.times do |index|
+    puts "#{index+1}. #{songs[index]}"
   end
 end
