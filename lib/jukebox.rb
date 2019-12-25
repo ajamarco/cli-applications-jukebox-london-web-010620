@@ -14,7 +14,7 @@ def play(songs)
   songs.each do |song|
     if song.include?(user_choice)
       puts "Playing #{song}."
-      playing = true
+      playin? = true
     end
   end
   
